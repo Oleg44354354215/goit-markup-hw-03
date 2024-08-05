@@ -1,0 +1,236 @@
+/* #region kk */
+body{
+    font-family: "Roboto" , sans-serif;
+    font-style: normal;
+    color:#434455;
+    background-color: #fff;
+  }
+  
+  ul,ol { 
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  /* #endregion kk */
+  
+  /* #region header */
+  .header {
+  }
+  .nav {
+  }
+  
+  .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  }
+  
+  .logo-item {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #2e2f42;
+  }
+  .menu {
+  }
+  .list {
+  }
+  
+  .list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  }
+  .list-item:hover{
+    color: #404bbf;
+  }
+  .list-item:active{
+  color: #404bbf;
+  }
+  .list-item:focus{
+    color: #404bbf;
+  }
+  
+  .address {
+    font-style: normal;
+  }
+  .menu-adress {
+  }
+  .list-adress {
+  }
+  
+  .item-adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  }
+  .item-adress:hover{
+  color: #404bbf;
+  }
+  
+  .item-adress:focus{
+    color: #404bbf;
+  }
+  /* #endregion header */
+  
+  /* #region main1 */
+  .main-sec {
+  background: #2e2f42;
+  }
+  .glava {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  }
+  .but {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+  }
+  
+  .but:hover{
+    background: #404bbf;
+  }
+  .but:focus{
+    background-color: #404BBF;
+  }
+  
+  .futures-sec {
+  }
+  .name-futures {
+  }
+  .futures-menu {
+  }
+  .futures-list {
+  }
+  .name-paragraph {
+    font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  }
+  .main-info {
+    font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  }
+  /* #endregion main */
+  
+  /* #region main2 */
+  .second-section {
+    background: #f4f4fd;
+  }
+  .name-team {
+    font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  }
+  .photo-team{
+    background-color: #FFFFFF;
+  }
+  
+  .team-list{
+    background-color: #FFFFFF;
+  }
+  .person-name {
+    font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  }
+  .person-work {
+    font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  }
+  /* #endregion main2 */
+  
+  /* #region main3 */
+  .portfolio-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  }
+  .portfolio-menu {
+  }
+  .portfolio-list {
+  }
+  .portfolio-type {
+    font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  }
+  .portfolio-work {
+    font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  }
+  /* #endregion main3 */
+  
+  /* #region footer */
+  .foot {
+    background-color: #2e2f42;
+  }
+  .foot-section {
+  }
+  .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-transform: uppercase;
+  }
+  .logo-studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+  }
+  .foot-par {
+    font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;;
+  }
+  /* #endregion footer */
