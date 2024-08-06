@@ -122,7 +122,7 @@ body{
   background: #2e2f42;
   max-width: 1460px;
   padding-top: 188px;
-  padding-bottom: 289px;
+  padding-bottom: 188px;
   box-sizing: border-box;
   margin-right: auto;
   margin-left: auto;
@@ -203,6 +203,8 @@ body{
    margin-left: auto;
    margin-right: auto;
    padding-left: 0;
+   padding-top: 120px;
+    padding-bottom: 120px;
   }
   .visually-hidden {
     position: absolute;
@@ -224,8 +226,8 @@ body{
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 124px;
-  margin-bottom: 72px;
+  /* padding-top: 124px;*/
+  margin-bottom: 72px; 
   }
 .photo-team{
     background-color: #FFFFFF;
@@ -236,7 +238,7 @@ body{
   }
 .team-list{
     background-color: #FFFFFF;
-    margin-bottom: 126px;
+    /* margin-bottom: 126px; */
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 background: #fff;
@@ -270,6 +272,7 @@ background: #fff;
     margin-right: auto; 
     height: auto;
     padding-bottom: 120px;
+    padding-top: 120px;
     
   }
   .portfolio-menu .portfolio-list {
@@ -283,7 +286,7 @@ background: #fff;
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 120px;
+  /* padding-top: 120px; */
   margin-bottom: 72px;
   }
   .portfolio-menu {
