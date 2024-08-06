@@ -128,7 +128,7 @@ body{
   margin-left: auto;
   }
   .glava {
-  width: 496px; 
+  max-width: 496px; 
   font-weight:700;
   font-size: 56px;
   line-height: 1.07;
@@ -152,10 +152,11 @@ body{
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
-  width: 169px;
+  min-width: 169px;
   text-align: center;
   height: 56px;
   border-radius: 4px;
+  border: none;
   display: inline-block;
   }
 .but:hover{
@@ -173,11 +174,11 @@ body{
   .futures-menu {
     display: flex;
     gap: 24px;
-    padding: 0 15px;
     justify-content: center;
+    
   }
   .futures-list {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
   }
   .name-paragraph {
     font-weight: 500;
@@ -235,6 +236,7 @@ body{
 .ul-photo{
     display: flex;
     gap: 24px;
+   
   }
 .team-list{
     background-color: #FFFFFF;
