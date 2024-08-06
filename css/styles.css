@@ -246,7 +246,6 @@ background: #fff;
   }
 .person-name {
   margin-bottom: 8px;
-  text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -254,11 +253,11 @@ background: #fff;
   color: #2e2f42;
   }
   .team-work{
-    padding: 32px 16px;
+    padding: 32px 0;
+    text-align: center;
   }
   .person-work {
     font-weight: 400;
-    text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -303,7 +302,7 @@ background: #fff;
   }
   
   .portfolio-list {
-    border: 1px solid #e7e9fc;
+    /* border: 1px solid #e7e9fc; */
     max-width: 360px;
     margin-right: auto;
     margin-left: auto;
@@ -319,6 +318,7 @@ background: #fff;
   }
  .photo{
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
   }
   .portfolio-work {
     font-weight: 400;
