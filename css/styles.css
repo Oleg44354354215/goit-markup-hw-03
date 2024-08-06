@@ -175,10 +175,9 @@ body{
     display: flex;
     gap: 24px;
     justify-content: center;
-    
   }
   .futures-list {
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    flex-basis: calc((100% - 3 * 24px) / 4) 
   }
   .name-paragraph {
     font-weight: 500;
