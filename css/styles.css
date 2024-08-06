@@ -23,10 +23,10 @@ body{
     color:#434455;
     background-color: #fff;
   }
-.section{
+/* .section{
   padding-top: 120px;
   padding-bottom: 120px;
-}
+} */
   /* #endregion kk */
   
   /* #region header */
@@ -270,6 +270,7 @@ background: #fff;
     margin-right: auto; 
     height: auto;
     padding-bottom: 120px;
+    /* padding-top: 120px; */
   }
   .portfolio-menu .portfolio-list {
     margin: 0; 
@@ -295,6 +296,7 @@ background: #fff;
     max-width: 100%;
     height: auto;
   }
+  
   .portfolio-list {
     border: 1px solid #e7e9fc;
     max-width: 360px;
@@ -339,6 +341,10 @@ background: #fff;
   color: #4d5ae5;
   text-transform: uppercase;
   }
+  .footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
+  }
   .logo-studio {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -349,7 +355,6 @@ background: #fff;
   }
   .foot-par {
     max-width: 264px;
-    margin-top: 16px;
     font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
